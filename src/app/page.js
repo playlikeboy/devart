@@ -73,7 +73,7 @@ export default function ArticlesPage() {
       <title>DevArt - Programming Related Articles</title>
       <main className="postscontainer">
         <h1 className="rounded-[12px] m-10 text-xl shadow-2xl p-5">
-          Latest Posts
+          Latest Posts 
         </h1>
         <div className="container">
           <div className="latestposts">
@@ -82,14 +82,7 @@ export default function ArticlesPage() {
             ))}
           </div>
           <div class="post">
-            <div class="usercard">
-              <img src="http://github.com/the-shade-project.png" alt="" />
-              <div class="username">
-                <a href="http://github.com/sh20raj">
-                  <span class="tomato">@</span>SH20RAJ
-                </a>
-              </div>
-            </div>
+            
             <Card2/>
             
           </div>
